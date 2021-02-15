@@ -1,0 +1,17 @@
+.action {
+    color: #fff;
+    font-size: 20px;
+    font-family: "fira Code";
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.action::before {
+    content: "";
+    display: inline-block;
+    background-color: #f25a70;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
